@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'bnadmin'@'%' WITH GRANT OPTION"
+mysql -u root "-p$MYSQL_ROOT_PASSWORD" -e "GRANT ALL PRIVILEGES ON *.* TO 'bnadmin'@'%' WITH GRANT OPTION"

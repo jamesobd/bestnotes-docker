@@ -172,12 +172,12 @@ APACHE_DOCUMENT_ROOT=/var/www/
 
 ### MYSQL #################################################
 
-MYSQL_VERSION=latest
-MYSQL_DATABASE=default
-MYSQL_USER=default
-MYSQL_PASSWORD=secret
+MYSQL_VERSION=5.7
+MYSQL_DATABASE=bestnotes
+MYSQL_USER=bnadmin
+MYSQL_PASSWORD=asdf
 MYSQL_PORT=3306
-MYSQL_ROOT_PASSWORD=root
+MYSQL_ROOT_PASSWORD=asdf
 MYSQL_ENTRYPOINT_INITDB=./docker/mysql/docker-entrypoint-initdb.d
 
 ### MARIADB ###############################################
