@@ -1,0 +1,4 @@
+.idea
+/docker/logs
+/docker/data
+.env
